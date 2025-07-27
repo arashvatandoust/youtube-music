@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Minimal Blog Player</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div class="blog-container">
+        <!-- Blog Header -->
+        <header class="blog-header">
+            <nav class="nav-menu">
+                <a href="#" class="nav-link">Home</a>
+                <a href="#" class="nav-link">About</a>
+                <a href="#" class="nav-link">Contact</a>
+            </nav>
+        </header>
+
+        <!-- Article Section -->
+        <article class="blog-post">
+            <h1 class="post-title">Featured Music</h1>
+            <div class="post-meta">
+                <span class="date">July 27, 2025</span>
+                <span class="author">by Arash Vatandoust</span>
+            </div>
+
+            <!-- Video Content -->
+            <div class="post-content">
+                <div class="video-wrapper">
+                    <iframe width="560" height="315" 
+                        src="https://www.youtube.com/embed/9bZkp7q19f0" 
+                        title="YouTube video player" 
+                        frameborder="0" 
+                        allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" 
+                        allowfullscreen>
+                    </iframe>
+                </div>
+                <p class="description">
+                    Experience the rhythm of modern music through our curated selection.
+                </p>
+            </div>
+
+            <!-- Share Section -->
+            <div class="share-section">
+                <button class="share-btn">Share</button>
+                <button class="like-btn">Like</button>
+            </div>
+        </article>
+
+        <!-- Footer -->
+        <footer class="minimal-footer">
+            <div class="footer-wave">
+                <svg viewBox="0 0 1440 100" xmlns="http://www.w3.org/2000/svg">
+                    <path d="M0,50 C150,20 350,80 720,50 C1090,20 1290,80 1440,50 L1440,100 L0,100 Z" fill="currentColor"/>
+                </svg>
+            </div>
+            <div class="footer-content">
+                <div class="footer-newsletter">
+                    <h3>Subscribe to our newsletter</h3>
+                    <div class="newsletter-form">
+                        <input type="email" placeholder="Enter your email">
+                        <button>Subscribe</button>
+                    </div>
+                </div>
+                <div class="footer-info">
+                    <div class="footer-author">
+                        <img src="https://via.placeholder.com/50" alt="Arash Vatandoust" class="author-img">
+                        <div class="author-details">
+                            <span class="author-name">Arash Vatandoust</span>
+                            <span class="author-role">Content Creator</span>
+                            <a href="mailto:Arash.Vatandoust@my-aolcc.com" class="author-contact">Get in touch</a>
+                        </div>
+                    </div>
+                    <p class="footer-year">© 2025</p>
+                </div>
+            </div>
+        </footer>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html> 
